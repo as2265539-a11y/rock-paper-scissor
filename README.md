@@ -1,46 +1,33 @@
 # Stone Paper Scissors Game
 
-A simple console-based Stone Paper Scissors game written in C.
+A browser-based Stone Paper Scissors game using HTML, CSS, and JavaScript.
 
 ## Features
+- Stone, Paper, Scissors menu
+- Random computer choice
+- Winner comparison using standard rules
+- Displays both choices and round result
+- Multiple rounds
+- User and Computer score tracking
+- Exit and reset options
+- Responsive interface
 
-- Displays a menu with Stone, Paper, Scissors, and Exit
-- Accepts the user's choice
-- Generates the computer's choice randomly
-- Compares both choices using standard game rules
-- Displays the user's and computer's choices
-- Displays the round result: User wins, Computer wins, or Draw
-- Supports multiple rounds
-- Maintains and displays scores
-- Validates invalid choices
-- Provides an option to exit the game
+## How to Run in VS Code
+1. Open this folder in Visual Studio Code.
+2. Open `index.html`.
+3. Right-click `index.html` and select **Open with Live Server**.
+4. The game opens in your browser.
 
-## Requirements
+You can also double-click `index.html` to open it directly in a browser.
 
-- Visual Studio with C/C++ development tools installed
+## How to Run on GitHub Pages
+Keep `index.html`, `style.css`, and `script.js` in the root of the public repository. In GitHub, go to **Settings → Pages**, select **Deploy from a branch**, choose the `main` branch and `/ (root)`, then save.
 
-## How to Run in Visual Studio
-
-1. Open Visual Studio.
-2. Create a Console App project.
-3. Add or open a C source file with a `.c` extension, for example `stone_paper_scissors.c`.
-4. Replace the source code with the code from `stone_paper_scissors.c` in this repository.
-5. Build the project.
-6. Run the program.
-
-## Game Rules
-
+## Rules
 - Stone beats Scissors
 - Scissors beats Paper
 - Paper beats Stone
 - Same choices result in a Draw
 
-## Concepts Used
-
-- `if-else` statements
-- `while` loop
-- Input validation
-- Random number generation using `rand()`
-- `srand()` and `time()`
-- Variables and counters
-- Console input/output
+## Technologies
+HTML5, CSS3, JavaScript
